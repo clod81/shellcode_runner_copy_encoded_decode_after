@@ -4,7 +4,7 @@ Uses p/invoke
 
 `ProgramAmsiEtwPatch` also patches `AmsiScanBuffer` and `EtwEventWrite`
 
-Tested with Meterpreter staged rev HTTPS payload (`encode_shellcode.cs` is the code I used to encode the raw one)
+Tested with Meterpreter staged rev HTTPS payload (`encode_shellcode.cs` or py version is the code I used to encode the raw one)
 
 ProgramAmsiEtwPatch.cs against SentinelOne (used Babel .net obfuscator - free version - twice on the resulting exe)
 
